@@ -20,5 +20,8 @@ int main(void){
 
     scanf("%d", & num2);
 
-    
+    sum= num1 + num2;
+    printf("%d + %d = %d", num1,num2,sum);
+
+    return 0;
 }
